@@ -1,2 +1,7 @@
-# Research-Project-2023-Winter
-Research Project that is scrapping websites for data on AI and its affects on us.
+# Code Overview
+There are two functions in this code that are used to scrape either Reddit or Stackoverflow.
+
+## Reddit Scraper
+
+
+## Stackoverflow Scraper
