@@ -23,10 +23,10 @@ stackoverflow_scraper(tag, keyword, db_name, user_agent, uri, fromDate, toDate)
     This function searches for Stack Overflow questions tagged with a certain tag and saves the information to a MongoDB database.
     
     Parameters:
-        tag(String) = tag name
-        keyword(String) = keyword to search in titles and body of questions
-        db_name(String) = what you want the database called
-        user_agent(String) = user agent name
+        tag(String) = Tag name
+        keyword(String) = Keyword to search in titles and body of questions
+        db_name(String) = What you want the database called
+        user_agent(String) = User agent name
         uri(String) = The link to the MongoDB database 
         fraomDate(Datetime) = What date to start scrapping 
         toDate(Datetime) = The end date to end scrapping
