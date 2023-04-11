@@ -6,6 +6,7 @@ There are two functions in this code that are used to scrape either Reddit or St
 reddit_subreddit_scraper(sub_reddit, db_name, client_id, client_secret, user_agent,uri,start_date, end_date)
 
     This function seaches a subReddit on reddit and adds the information to a MongoDB database.
+    
     Parameters:
         sub_reddit(String) = Sub reddit name
         db_name(String) = What you want the database called
@@ -20,7 +21,8 @@ reddit_subreddit_scraper(sub_reddit, db_name, client_id, client_secret, user_age
 
 stackoverflow_scraper(tag, keyword, db_name, user_agent, uri, fromDate, toDate)
 
-    This function searches for Stack Overflow questions tagged with a certain tag and saves the information to a MongoDB database.
+    This function searches for Stack Overflow questions with a certain tag and saves the information to a MongoDB database.
+    As well as saving the user information.
     
     Parameters:
         tag(String) = Tag name
